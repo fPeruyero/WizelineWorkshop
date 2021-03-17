@@ -1,0 +1,27 @@
+{
+  "name": "wizeline-workshop",
+  "version": "1.0.0",
+  "description": "TestCafe project",
+  "main": "index.js",
+  "scripts": {
+    "test-all-report": "testcafe chrome,Edge ./page_model/test --reporter html:page_model/report.html",
+    "test-all": "testcafe chrome,Edge ./page_model/test"
+  },
+  "author": "Fernanda Peruyero",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe": "^1.12.0",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-spec-time": "^4.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fPeruyero/Wizeline-Workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fPeruyero/Wizeline-Workshop/issues"
+  },
+  "homepage": "https://github.com/fPeruyero/Wizeline-Workshop#readme"
+}
