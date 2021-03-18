@@ -12,8 +12,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "testcafe": "^1.12.0",
-    "testcafe-reporter-html": "^1.4.6",
-    "testcafe-reporter-spec-time": "^4.0.0"
+    "testcafe-reporter-html": "^1.4.6"
   },
   "devDependencies": {},
   "repository": {
